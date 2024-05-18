@@ -1,0 +1,273 @@
+body{
+    
+}
+header{
+    background-image: url(./header.jpg);
+    padding: 5px;
+    color: white;
+    font-style: italic;
+     font-weight: 400;
+    font-size: 20px;
+    width: 100%;
+}
+.taskbar-container{
+    display: flex;
+    height: 30px;
+    padding: 20px;
+    background-image: url(./header2.jpg);
+    width: 100%;
+    margin: 0%;
+
+   
+   
+}
+.searchbar{
+    color: black;
+    background-image: linear-gradient(to right, rgb(255, 255, 255) , #e7e5f0);
+    margin: 0%;
+    float: right;
+    border-radius: 5px;
+    padding: 2px;
+    
+}
+.searchbar:hover{
+    height: 20px;
+    width: 20px;
+
+}
+
+  li:hover{
+    background-color: pink;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+  }
+.taskbar{
+    color: rgb(0, 0, 0);
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+
+    
+
+}
+ul{
+    list-style: none;
+}
+
+.breakingnews-container{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    height: 20px;
+    padding: 30px;
+    background-image: linear-gradient(to right,rgb(216, 0, 0) , rgb(202, 191, 191));
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+
+.lightning{
+    display: inline-flex;
+    
+    border-right: 3px solid rgb(255, 255, 255);
+}
+
+.lightning p{
+    margin-right: 10px;
+}
+.justline{
+    color: aliceblue;
+}
+.weather{
+    display: inline-flex;
+    border-left: 3px solid rgb(255, 255, 255);
+    margin-left: 3px;
+}
+
+#headline{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
+#headline:hover{
+    text-align: center;
+    border: 2px solid white;
+    height: 50px;
+    width: 80%;
+    font-size: larger;
+}
+img{
+    height: 17px;
+    width: 17px;
+    float: left;
+    border-radius: 5px;
+    margin: 0%;
+}
+p{
+    font-size: 17;
+}
+.big-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows:1fr ;
+    margin: 10px;
+    gap: 5px;
+   
+}
+.monsoon{
+  background-image: url(./monsoon.jpeg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  border-radius: 10px;
+  
+}
+
+.blog-parts li{
+    display: inline;
+    margin-right: 10px;
+    margin-right: 10px;
+    background-color:pink;
+    color: rgb(0, 0, 0);
+   padding: 5px;
+   border-radius: 15px;
+
+
+}
+.blog-parts li:hover{
+    font-size: larger;
+}
+
+.monsoon h2{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+.blog-logo p{
+    color: white;
+}
+.blog-logo>p:hover{
+    font-size: larger;
+
+}
+.dogs{
+    background-image: url(./dogs.jpeg);
+    background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+.dogs h2{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(0, 101, 22);
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+.one-block{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.earth{
+    background-image: url(./earth.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.earth h2{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color:rgb(22, 13, 148);
+    margin: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+.art{
+    background-image: url(./art.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.art h2{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color:rgb(23, 20, 170);
+    margin: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.side-panel{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.options li{
+    display: inline;
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+  border-left: 5px solid black;
+}
+.news img{
+    height: 65px;
+    width: 65px;
+}
+.random{
+    gap: 5px;
+}
+
+@media (max-width:800px) {
+    .big-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+@media (min-width:400px) {
+    
+    .taskbar{
+    flex-wrap: wrap;
+    margin: 0%;
+    }
+}
+
+
+
+
+
+
+
+
+
